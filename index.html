@@ -4384,7 +4384,7 @@ data.zweit_npd_2013 + ' Prozent' + '</div>';
 "setProjection":  function( element, options ) {
    var projection, path;
    projection = d3.geo.mercator()
-    .center([14, 51]).scale(10000)
+    .center([14, 51]).scale(8700)
     .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
       path = d3.geo.path().projection( projection );
       return {path: path, projection: projection};
