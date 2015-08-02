@@ -15,8 +15,8 @@
       display: block;
       margin-left: auto; 
       margin-right: auto;
-      width: 800px;
-      height: 650px;
+      width: 600px;
+      height: 490px;
     }  
     </style>
     
@@ -30,8 +30,8 @@
 <script>
   var chartParams = {
  "dom": "chart146878463c6b",
-"width":    800,
-"height":    650,
+"width":    600,
+"height":    490,
 "scope": "states",
 "fills": {
  "<2.5": "#E7CCB0",
@@ -4384,7 +4384,7 @@ data.zweit_npd_2013 + ' Prozent' + '</div>';
 "setProjection":  function( element, options ) {
    var projection, path;
    projection = d3.geo.mercator()
-    .center([13.5, 51]).scale(12500)
+    .center([13.5, 51]).scale(10000)
     .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
       path = d3.geo.path().projection( projection );
       return {path: path, projection: projection};
