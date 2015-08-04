@@ -15,13 +15,13 @@
       display: block;
       margin-left: auto; 
       margin-right: auto;
-      width: 600px;
-      height: 490px;
+      width: 575px;
+      height: 420px;
     }  
     </style>
     
   </head>
-  <body >
+  <body>
     
     <div id = 'chart146878463c6b' class = 'rChart datamaps'></div>    
     <script id='popup-template' type='text/x-handlebars-template'>
@@ -30,8 +30,8 @@
 <script>
   var chartParams = {
  "dom": "chart146878463c6b",
-"width":    600,
-"height":    490,
+"width":    575,
+"height":    420,
 "scope": "states",
 "fills": {
  "<2.5": "#E7CCB0",
@@ -4384,7 +4384,7 @@ data.zweit_npd_2013 + ' Prozent' + '</div>';
 "setProjection":  function( element, options ) {
    var projection, path;
    projection = d3.geo.mercator()
-    .center([13.5, 51]).scale(8000)
+    .center([13.5, 51]).scale(9200)
     .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
       path = d3.geo.path().projection( projection );
       return {path: path, projection: projection};
